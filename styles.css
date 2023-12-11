@@ -59,7 +59,8 @@ button {
 /* Services */
 
 .services {
-  background: #dee2e6;
+  margin-top: 20px;
+  background-color: #dee2e6;
   text-align: center;
 }
 
@@ -131,6 +132,58 @@ h3 {
 }
 
 /* contact */
+
+.contact {
+  padding: 30px;
+  background-color: #dee2e6;
+  text-align: center;
+  height: 449px;
+}
+
+.contact-box {
+  vertical-align: top;
+  display: inline-block;
+  margin: 10px;
+}
+
+.contact-box .contact-img,
+.contact-text {
+  vertical-align: center;
+  display: inline-block;
+  width: 20px;
+}
+
+li {
+  list-style: none;
+  text-align: start;
+}
+.info-fill {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #212529;
+  color: white;
+  border: none;
+}
+
+.message {
+  width: 610px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #212529;
+  color: white;
+  border: none;
+}
+
+.send-button {
+  width: 90px;
+  height: 44px;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  background-color: #f8f9fa;
+}
 
 /* other */
 .btn-1 {
